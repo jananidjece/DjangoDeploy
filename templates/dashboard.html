@@ -1,0 +1,30 @@
+{% extends "adminPage.html" %}
+
+{% block Dashboard %}
+<main class="flex-1 space-y-6">
+
+  <!-- Stats -->
+  <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
+    <div class="p-5 rounded-xl bg-gradient-to-r from-indigo-500 to-indigo-600 text-white">
+      <p class="text-sm opacity-80">Total Users</p>
+      <h2 class="text-3xl font-bold">1,248</h2>
+    </div>
+
+    <div class="p-5 rounded-xl bg-gradient-to-r from-green-500 to-green-600 text-white">
+      <p class="text-sm opacity-80">Orders</p>
+      <h2 class="text-3xl font-bold">312</h2>
+    </div>
+
+    <div class="p-5 rounded-xl bg-gradient-to-r from-yellow-500 to-yellow-600 text-white">
+      <p class="text-sm opacity-80">Revenue</p>
+      <h2 class="text-3xl font-bold">$18,420</h2>
+    </div>
+
+    <div class="p-5 rounded-xl bg-gradient-to-r from-pink-500 to-pink-600 text-white">
+      <p class="text-sm opacity-80">Pending</p>
+      <h2 class="text-3xl font-bold">19</h2>
+    </div>
+  </div>
+
+</main>
+{% endblock Dashboard %}
