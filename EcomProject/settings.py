@@ -139,6 +139,14 @@ STATIC_URL = 'static/'
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
+CORS_ALLOW_ALL_ORIGINS= True #development time
+CORS_ALLOWED_ORIGINS =[
+"http://localhost:3000",
+# Dev
+"https://djangodeploy-2zsr.onrender.com/", # Production
+]
+
+
 
 
 
